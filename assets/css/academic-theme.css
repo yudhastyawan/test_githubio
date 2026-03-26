@@ -497,3 +497,106 @@ body {
         font-size: 2rem;
     }
 }
+/* ==========================================================================
+   COMPACT TWO-COLUMN HOMEPAGE UTILITIES
+   ========================================================================== */
+
+.homepage-wrapper.compact {
+    gap: 1.5rem;
+}
+
+.home-two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: stretch;
+}
+
+@media (max-width: 900px) {
+    .home-two-column {
+        grid-template-columns: 1fr;
+    }
+}
+
+.compact-hero {
+    padding: 2.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.compact-hero .hero-title { font-size: 2.2rem; }
+.compact-hero .hero-subtitle { font-size: 1.15rem; margin-bottom: 1rem; }
+.compact-hero .hero-description { font-size: 0.95rem; margin-bottom: 0; }
+
+.personal-info-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    border: 1px solid #ebedf0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.home-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.compact-card {
+    padding: 1.2rem;
+    gap: 1.2rem;
+}
+
+.small-icon {
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+}
+
+.timeline-title { font-size: 1.1rem; }
+
+.timeline-date.small {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 0;
+}
+
+.d-flex { display: flex; }
+.justify-between { justify-content: space-between; }
+.align-center { align-items: flex-start; } /* Changed to flex-start so date aligns with top of multiline title */
+
+.timeline-org {
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    color: #7f8c8d;
+}
+
+.compact-text {
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    padding-left: 0;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.wrapper-badges.small { gap: 6px; }
+.wrapper-badges.small .skill-badge {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+}
+
+.mt-half { margin-top: 0.5rem; }
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mb-2 { margin-bottom: 2rem; }
+
+.text-small { font-size: 0.85rem; }
+.text-muted { color: #7f8c8d; }
+
+.compact-cta { padding: 1.5rem; }
+.cta-title { margin: 0 0 0.5rem 0; font-size: 1.3rem; }
+.compact-cta p { margin-bottom: 0; }
+.btn--small { padding: 0.5rem 1.2rem; font-size: 0.9rem; }

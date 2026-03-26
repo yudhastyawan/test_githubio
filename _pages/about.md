@@ -12,122 +12,148 @@ redirect_from:
   .page__title { display: none !important; }
 </style>
 
-<div class="homepage-wrapper">
+<div class="homepage-wrapper compact">
 
   <!-- HERO SECTION -->
-  <section class="home-section hero-section">
-    <h1 class="hero-title">Hello, I'm Yudha Styawan</h1>
+  <section class="home-section hero-section compact-hero">
+    <h1 class="hero-title">Yudha Styawan</h1>
     <p class="hero-subtitle">Lecturer, Geophysicist & Computational Seismology Enthusiast</p>
-    <p class="hero-description">Passionate educator and researcher specializing in geophysics, computational modeling, and seismology. With a strong foundation in data analysis and programming, I bridge the gap between theoretical geophysical principles and practical applications.</p>
+    <p class="hero-description">Passionate educator and researcher specializing in geophysics, computational modeling, and seismology. Bridging the gap between theoretical principles and practical applications through data analysis and programming.</p>
   </section>
 
-  <!-- EDUCATION -->
-  <section class="home-section">
-    <h2 class="home-section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
-    <div class="timeline-container">
-      <div class="timeline-card">
-        <div class="timeline-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/NCULogo.svg/1200px-NCULogo.svg.png" alt="NCU"></div>
-        <div class="timeline-content">
-          <h3 class="timeline-title">Master of Science (M.Sc.) in Geophysics</h3>
-          <p class="timeline-org">National Central University, Taiwan</p>
-          <span class="timeline-date">2021</span>
-        </div>
-      </div>
-      <div class="timeline-card">
-        <div class="timeline-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
-        <div class="timeline-content">
-          <h3 class="timeline-title">Bachelor of Engineering (S.T.) in Geophysical Engineering</h3>
-          <p class="timeline-org">Institut Teknologi Sumatera, Indonesia</p>
-          <span class="timeline-date">2018</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="home-section">
-    <h2 class="home-section-title"><i class="fas fa-briefcase"></i> Professional Experience</h2>
-    <div class="timeline-container">
-      <div class="timeline-card">
-        <div class="timeline-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
-        <div class="timeline-content">
-          <h3 class="timeline-title">Lecturer - Geophysical Engineering</h3>
-          <p class="timeline-org">Institut Teknologi Sumatera, Indonesia</p>
-          <span class="timeline-date">2022 – Present</span>
-          <ul class="timeline-details">
-            <li>Teaching undergraduate courses in geophysics and engineering.</li>
-            <li>Mentoring students in practical applications and research projects.</li>
-            <li>Research focus areas: seismic data analysis, engineering seismology, and computational modeling.</li>
+  <!-- TWO COLUMN LAYOUT -->
+  <div class="home-two-column">
+    
+    <!-- LEFT COLUMN: Personal Info & Skills -->
+    <div class="home-left-col">
+      
+      <!-- PERSONAL INFORMATION -->
+      <section class="home-section compact-section">
+        <h2 class="home-section-title"><i class="fas fa-id-card"></i> Personal Information</h2>
+        <div class="personal-info-card">
+          <ul class="personal-info-list" style="list-style:none; padding:0; margin:0;">
+            <li style="display:flex; margin-bottom:10px;"><i class="fas fa-user text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Name:</strong> Yudha Styawan</div></li>
+            <li style="display:flex; margin-bottom:10px;"><i class="fas fa-briefcase text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Position:</strong> Lecturer, Geophysical Engineering</div></li>
+            <li style="display:flex; margin-bottom:10px;"><i class="fas fa-university text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Institution:</strong> Institut Teknologi Sumatera, Indonesia</div></li>
+            <li style="display:flex; margin-bottom:10px;"><i class="fas fa-envelope text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Email:</strong> yudha.styawan@tg.itera.ac.id <br> yudhastyawan26@gmail.com</div></li>
+            <li style="display:flex; margin-bottom:0;"><i class="fas fa-globe text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Website:</strong> <a style="text-decoration:none;" href="https://yudhastyawan.github.io">yudhastyawan.github.io</a></div></li>
           </ul>
         </div>
-      </div>
-      <div class="timeline-card">
-        <div class="timeline-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
-        <div class="timeline-content">
-          <h3 class="timeline-title">Laboratory Staff - Geophysical Engineering</h3>
-          <p class="timeline-org">Institut Teknologi Sumatera, Indonesia</p>
-          <span class="timeline-date">2018 – 2021</span>
-          <ul class="timeline-details">
-            <li>Managed and maintained geophysical instrumentation.</li>
-            <li>Supervised fieldwork activities for geophysics students.</li>
-            <li>Conducted technical training on seismic refraction, Scintrex 6 gravity meter, geomagnetic tools, geoelectrical instruments, and seismometers.</li>
-          </ul>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="home-section compact-section mt-2">
+        <h2 class="home-section-title"><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+        <div class="skills-grid">
+          
+          <div class="skills-category-compact">
+            <strong><i class="fab fa-python"></i> Programming:</strong>
+            <div class="wrapper-badges small mt-half">
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">PyQt</span>
+              <span class="skill-badge">Fortran</span>
+              <span class="skill-badge">C++</span>
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">GMT</span>
+              <span class="skill-badge">Bash / CLI</span>
+            </div>
+          </div>
+          
+          <div class="skills-category-compact mt-1">
+            <strong><i class="fas fa-hammer"></i> Geo Tools:</strong>
+            <div class="text-muted text-small mt-half">Hands-on field and operational experience with <strong>Seismic</strong>, <strong>Gravity</strong>, <strong>Magnetic</strong>, and <strong>Electrical</strong> geophysical instruments.</div>
+          </div>
+          
+          <div class="skills-category-compact mt-1">
+            <strong><i class="fas fa-tools"></i> Software & OS:</strong>
+            <div class="wrapper-badges small mt-half">
+              <span class="skill-badge">Linux</span>
+              <span class="skill-badge">LaTeX</span>
+              <span class="skill-badge">Zotero</span>
+              <span class="skill-badge">MS Office</span>
+            </div>
+          </div>
+
+          <div class="skills-category-compact mt-1">
+            <strong><i class="fas fa-brain"></i> Interests:</strong>
+            <div class="wrapper-badges small mt-half">
+              <span class="skill-badge">Comp. Seismology</span>
+              <span class="skill-badge">Eng. Seismology</span>
+              <span class="skill-badge">Geophysics Software</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- SKILLS -->
-  <section class="home-section">
-    <h2 class="home-section-title"><i class="fas fa-laptop-code"></i> Technical Skills</h2>
-    
-    <div class="skills-category">
-      <h3 class="skills-subtitle"><i class="fab fa-python"></i> Programming & Development</h3>
-      <div class="skills-container wrapper-badges">
-        <span class="skill-badge">Python</span>
-        <span class="skill-badge">PyQt</span>
-        <span class="skill-badge">Fortran</span>
-        <span class="skill-badge">C++</span>
-        <span class="skill-badge">Git</span>
-        <span class="skill-badge">GMT</span>
-        <span class="skill-badge">Bash / CLI</span>
-      </div>
+      <!-- COLLABORATION -->
+      <section class="home-section cta-section compact-cta mt-2 mb-2">
+        <h3 class="cta-title">Let's Collaborate!</h3>
+        <p class="cta-desc text-small">Enthusiastic about exploring innovative ideas and collaborative projects in geophysics and seismology.</p>
+        <div class="cta-buttons mt-1">
+          <a href="mailto:yudha.styawan@tg.itera.ac.id" class="btn btn--info btn--small"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+      </section>
     </div>
 
-    <div class="skills-category">
-      <h3 class="skills-subtitle"><i class="fas fa-hammer"></i> Geophysical Tools</h3>
-      <p class="skills-text">Hands-on field and operational experience with <strong>Seismic</strong>, <strong>Gravity</strong>, <strong>Magnetic</strong>, and <strong>Electrical</strong> geophysical instruments.</p>
-    </div>
+    <!-- RIGHT COLUMN: Experience & Education -->
+    <div class="home-right-col">
+      
+      <!-- EXPERIENCE -->
+      <section class="home-section compact-section">
+        <h2 class="home-section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+        <div class="timeline-container compact-timeline">
+          <div class="timeline-card compact-card">
+            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
+            <div class="timeline-content">
+              <div class="d-flex justify-between align-center">
+                <h3 class="timeline-title">Lecturer</h3>
+                <span class="timeline-date small">2022–Present</span>
+              </div>
+              <p class="timeline-org">Institut Teknologi Sumatera</p>
+              <p class="timeline-details compact-text">Teaching geophysics courses, mentoring students, and researching seismic data analysis and computational modeling.</p>
+            </div>
+          </div>
+          <div class="timeline-card compact-card">
+            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
+            <div class="timeline-content">
+              <div class="d-flex justify-between align-center">
+                <h3 class="timeline-title">Laboratory Staff</h3>
+                <span class="timeline-date small">2018–2021</span>
+              </div>
+              <p class="timeline-org">Institut Teknologi Sumatera</p>
+              <p class="timeline-details compact-text">Managed geophysical instrumentation and supervised student fieldwork. Conducted technical training for various instruments.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <div class="skills-category">
-      <h3 class="skills-subtitle"><i class="fas fa-tools"></i> Software & OS</h3>
-      <div class="skills-container wrapper-badges">
-        <span class="skill-badge">Linux</span>
-        <span class="skill-badge">LaTeX</span>
-        <span class="skill-badge">Zotero</span>
-        <span class="skill-badge">Microsoft Office</span>
-      </div>
+      <!-- EDUCATION -->
+      <section class="home-section compact-section mt-2">
+        <h2 class="home-section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="timeline-container compact-timeline">
+          <div class="timeline-card compact-card">
+            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/NCULogo.svg/1200px-NCULogo.svg.png" alt="NCU"></div>
+            <div class="timeline-content">
+              <div class="d-flex justify-between align-center">
+                <h3 class="timeline-title">M.Sc. Geophysics</h3>
+                <span class="timeline-date small">2021</span>
+              </div>
+              <p class="timeline-org">National Central University, Taiwan</p>
+            </div>
+          </div>
+          <div class="timeline-card compact-card">
+            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
+            <div class="timeline-content">
+              <div class="d-flex justify-between align-center">
+                <h3 class="timeline-title">B.Eng. Geophysical Eng.</h3>
+                <span class="timeline-date small">2018</span>
+              </div>
+              <p class="timeline-org">Institut Teknologi Sumatera</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </div>
-    
-    <div class="skills-category">
-      <h3 class="skills-subtitle"><i class="fas fa-brain"></i> Professional Interests</h3>
-      <div class="skills-container wrapper-badges">
-        <span class="skill-badge">Computational Seismology</span>
-        <span class="skill-badge">Engineering Seismology</span>
-        <span class="skill-badge">Geophysics</span>
-        <span class="skill-badge">Geophysical Software Development</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- COLLABORATION -->
-  <section class="home-section cta-section">
-    <h2 class="home-section-title text-center">Collaboration Opportunities</h2>
-    <p class="text-center">I am enthusiastic about exploring innovative ideas and collaborative projects in geophysics, seismology, and computational programming.</p>
-    <div class="cta-buttons">
-      <a href="mailto:yudha.styawan@tg.itera.ac.id" class="btn btn--info"><i class="fas fa-envelope"></i> Contact Me</a>
-      <a href="https://github.com/yudhastyawan" class="btn btn--inverse"><i class="fab fa-github"></i> View GitHub</a>
-    </div>
-  </section>
-
+  </div>
 </div>
