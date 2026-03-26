@@ -12,7 +12,7 @@ redirect_from:
   .page__title { display: none !important; }
 </style>
 
-<div class="homepage-wrapper compact">
+<div class="homepage-wrapper compact" markdown="0">
 
   <!-- HERO SECTION -->
   <section class="home-section hero-section compact-hero">
