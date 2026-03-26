@@ -259,3 +259,241 @@ body {
     box-shadow: none;
     border: none;
 }
+
+/* ==========================================================================
+   HOMEPAGE (PORTFOLIO / CV) REDESIGN
+   ========================================================================== */
+
+.homepage-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.home-section {
+    background: #ffffff;
+}
+
+.home-section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    border-bottom: 3px solid #f0f2f5;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.home-section-title i {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    border: 1px solid #ebedf0;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #3498db;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.05rem;
+    color: #5a6c7d;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Timeline Cards */
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.timeline-card {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    border: 1px solid #ebedf0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.timeline-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-color: #3498db;
+}
+
+.timeline-icon {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.timeline-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.timeline-content {
+    flex-grow: 1;
+}
+
+.timeline-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+
+.timeline-org {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #5a6c7d;
+    margin-bottom: 0.3rem;
+}
+
+.timeline-date {
+    display: inline-block;
+    background: #eef2f5;
+    color: #34495e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.timeline-details {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+    color: #5a6c7d;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills-category {
+    margin-bottom: 2rem;
+}
+
+.skills-subtitle {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wrapper-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-badge {
+    background: #f1f5f9;
+    color: #2c3e50;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.5rem 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #dde1e6;
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.skill-badge:hover {
+    background: #3498db;
+    color: #ffffff;
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+}
+
+.skills-text {
+    font-size: 1rem;
+    color: #5a6c7d;
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+    background: #2c3e50;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cta-section .home-section-title {
+    color: #ffffff;
+    border-bottom: none;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    color: #bdc3c7;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Homepage */
+@media (max-width: 768px) {
+    .timeline-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+}
