@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yudha Styawan"
-  avatar           : "profil_yudha_2.jpg"
+  avatar           : "profil_yudha_3.jpg"
   bio              : "Lecturer | Geophysicist | Computational Seismology Enthusiast"
   location         : "Indonesia"
   employer         : "Institut Teknologi Sumatera"
@@ -114,7 +114,8 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "yudha_styawan"
+  youtube_teaching : "yudhaarchive"
   wikipedia        :
   zenodo           : "https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch"
   itera            : "https://directory.itera.ac.id/researcher/id/gpKIfJRmZK9lbGWVZYJ4rcWTlZmXbWlmZIJ4g5iWmGeXm5OVaq6nfg%3D%3D"
