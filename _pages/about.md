@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  .page__title { display: none !important; }
+</style>
+
 <div class="homepage-wrapper">
 
   <!-- HERO SECTION -->
