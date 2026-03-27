@@ -145,7 +145,7 @@ redirect_from:
             <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
             <div class="timeline-content">
               <div class="d-flex justify-between align-center">
-                <h3 class="timeline-title">B.Eng. Geophysical Eng.</h3>
+                <h3 class="timeline-title">B.Eng. (S.T.) Geophysical Eng.</h3>
                 <span class="timeline-date small">2018</span>
               </div>
               <p class="timeline-org">Institut Teknologi Sumatera</p>
