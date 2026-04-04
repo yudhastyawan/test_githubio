@@ -38,6 +38,11 @@ redirect_from:
             <li style="display:flex; margin-bottom:10px;"><i class="fas fa-envelope text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Email:</strong> yudha.styawan@tg.itera.ac.id <br> yudhastyawan26@gmail.com</div></li>
             <li style="display:flex; margin-bottom:0;"><i class="fas fa-globe text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Website:</strong> <a style="text-decoration:none;" href="https://yudhastyawan.github.io">yudhastyawan.github.io</a></div></li>
           </ul>
+          
+          <div class="cv-download-buttons mt-1" style="display: flex; gap: 10px; margin-top: 15px;">
+            <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="flex: 1; text-align: center;"><i class="fas fa-file-pdf"></i> CV (English)</a>
+            <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="flex: 1; text-align: center; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-file-pdf"></i> CV (Bahasa)</a>
+          </div>
         </div>
       </section>
 
@@ -106,6 +111,16 @@ redirect_from:
             <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
             <div class="timeline-content">
               <div class="d-flex justify-between align-center">
+                <h3 class="timeline-title">Secretary at Earthquake & Tsunami Disaster Mitigation Center</h3>
+                <span class="timeline-date small">2025–Present</span>
+              </div>
+              <p class="timeline-org">Institut Teknologi Sumatera</p>
+            </div>
+          </div>
+          <div class="timeline-card compact-card">
+            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
+            <div class="timeline-content">
+              <div class="d-flex justify-between align-center">
                 <h3 class="timeline-title">Lecturer</h3>
                 <span class="timeline-date small">2022–Present</span>
               </div>
@@ -139,6 +154,10 @@ redirect_from:
                 <span class="timeline-date small">2021</span>
               </div>
               <p class="timeline-org">National Central University, Taiwan</p>
+              <div class="timeline-details compact-text mt-half">
+                <strong>Thesis:</strong> Characteristics of Seismic Attenuation in Sumatra Subduction Zone, Indonesia <br>
+                <strong>Advisors:</strong> Asst. Prof. Chun-Hsiang Kuo, Prof. Bor-Shouh Huang
+              </div>
             </div>
           </div>
           <div class="timeline-card compact-card">
@@ -149,6 +168,10 @@ redirect_from:
                 <span class="timeline-date small">2018</span>
               </div>
               <p class="timeline-org">Institut Teknologi Sumatera</p>
+              <div class="timeline-details compact-text mt-half">
+                <strong>Skripsi:</strong> Lindu Software: Aplikasi Pengolahan Data Seismologi Berbasis Python untuk Tomografi Waktu Tempuh <br>
+                <strong>Advisors:</strong> Dr. Tedi Yudistira, S.Si., M.Si., Ruhul Firdaus, S.T., M.T.
+              </div>
             </div>
           </div>
         </div>
